@@ -1,6 +1,7 @@
 import { Flex, Image, Divider, Center, Text, Box } from "@chakra-ui/react";
 import BannerInfo from "../components/BannerInfo";
 import Header from "../components/Header";
+import Slides from "../components/Slides";
 
 
 export default function Home() {
@@ -34,6 +35,8 @@ export default function Home() {
         Vamos nessa? <br />
         Então escolha seu continente
       </Text>
+
+      <Slides />
 
     </Box>
   )
