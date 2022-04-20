@@ -9,7 +9,7 @@ export default function Home() {
     <Box
       height="100vh"
     >
-      <Header backBtn />
+      <Header />
 
       <BannerInfo />
 
@@ -38,6 +38,11 @@ export default function Home() {
 
       <Slides />
 
+      <Box
+        height="10px"
+      >
+
+      </Box>
     </Box>
   )
 }

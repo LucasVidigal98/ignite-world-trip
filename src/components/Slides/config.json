@@ -1,0 +1,14 @@
+{
+  "continents": [
+    {
+      "name": "Europa",
+      "description": "O Continente mais antigo.",
+      "image": "./Europa.png"
+    },
+    {
+      "name": "África",
+      "description": "O Continente da diversidade.",
+      "image": "./Africa.jpg"
+    }
+  ]
+}
