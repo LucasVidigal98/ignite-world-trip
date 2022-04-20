@@ -6,7 +6,6 @@ interface HeaderProps {
 }
 
 export default function Header({ backBtn = false }: HeaderProps) {
-  console.log(backBtn);
   return (
     <Flex height={100}  align="center" justify={ backBtn ? 'space-around' : 'center' }>
       {backBtn && (
